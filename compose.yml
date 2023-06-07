@@ -70,7 +70,7 @@ services:
       - MYSQL_DATABASE=${DB_DATABASE:-laravel}
       - MYSQL_USER=${DB_USERNAME:-phper}
       - MYSQL_PASSWORD=${DB_PASSWORD:-secret}
-      - MYSQL_ROOT_PASSWORD=${DB_PASSWORD:-secret}
+      - MYSQL_ROOT_PASSWORD=${DB_PASSWORD:-root}
 
   mailpit:
     image: axllent/mailpit
